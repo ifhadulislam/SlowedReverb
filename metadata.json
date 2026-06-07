@@ -1,0 +1,6 @@
+{
+  "name": "Slowed Reverb Studio",
+  "description": "A professional-grade studio for creating slowed and reverb audio, featuring live previews, custom pitch, speed, reverb, and bass controls, preset modes, interactive waveforms, and high-fidelity file exports, alongside a complete Flutter codebase exporter.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
