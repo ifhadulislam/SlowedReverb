@@ -1,0 +1,52 @@
+name: slowed_reverb_studio
+description: "Slowed Reverb Studio - A professional physics-informed slowed and reverb audio production studio in Flutter."
+version: 1.0.0+1
+
+publish_to: 'none'
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Cupertino icons for iOS style
+  cupertino_icons: ^1.0.5
+
+  # State Management
+  flutter_riverpod: ^2.4.9
+  riverpod_annotation: ^2.3.3
+
+  # Audio Playback
+  just_audio: ^0.9.36
+  audio_session: ^0.1.16
+
+  # File Management
+  file_picker: ^6.1.1
+  path_provider: ^2.1.1
+  share_plus: ^7.2.1
+
+  # Advanced Audio Digital Signal Processing & Export (FFmpeg integration)
+  ffmpeg_kit_flutter_new: ^6.0.3-LTS
+
+  # UI / UX Styling
+  google_fonts: ^6.1.0
+  flutter_spinkit: ^5.2.0
+  glassmorphism: ^3.0.0
+  shimmer: ^3.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.3
+  build_runner: ^2.4.8
+  riverpod_generator: ^2.3.9
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/presets/
+    - assets/reverbs/
